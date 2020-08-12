@@ -4,7 +4,7 @@ import java.io.IOException;
 import java.util.Scanner;
 
 public class arrayDS {
-    static int[] reverseArray(int[] a) {
+    static void reverseArray(int[] a) {
 
     }
 
@@ -26,8 +26,8 @@ public class arrayDS {
             arr[i] = arrItem;
         }
 
-        int[] res = reverseArray(arr);
 
+        char[][] res = new char[0][];
         for (int i = 0; i < res.length; i++) {
             bufferedWriter.write(String.valueOf(res[i]));
 
