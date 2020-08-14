@@ -9,7 +9,13 @@ public class countingValleys {
         int sum = 0;
         int count = 0;
         for(int i=0;i<n;i++){
-
+            if(s.charAt(i)=='U'){
+                if(++sum==0)
+                    count++;
+            }
+            else sum--;
+        }
+        return count;
 
 
     }
