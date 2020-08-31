@@ -1,6 +1,10 @@
+import java.util.ArrayDeque;
+import java.util.Deque;
+import java.util.Scanner;
+
 public class inorderTraversal {
 
-    class Node {
+    static class Node {
         Node left;
         Node right;
         int data;
@@ -12,7 +16,7 @@ public class inorderTraversal {
         }
     }
 
-    class Solution {
+    static class Solution {
 
 /* you only have to complete the function given below.
 Node is defined as
